@@ -59,7 +59,7 @@ const empleado21 = {
   //De 12.450 euros a 20.200 euros               : 24,0%
   }else if (empleado21.bruto21 > 12450 && empleado21.bruto21 <= 20200) {
       salarioNeto21 = empleado21.bruto21 * 0.76;
-      if(empleado21.hijos21 = 1 && empleado21.bruto21 <= 15947){
+      if(empleado21.hijos21 == 1 && empleado21.bruto21 <= 15947){
         salarioNeto21 = empleado21.bruto21 * 1;
       }
       if(empleado21.hijos21 > 2 && empleado21.bruto21 <= 17100){
@@ -93,8 +93,3 @@ const empleado21 = {
  // 1.ª Contribuyente soltero, viudo, divorciado o separado legalmente
 // 1 HIJO 15.947 €
 // 2 HIJOS O +  17.100 €
-
-//2.ª Contribuyente cuyo cónyuge no obtenga rentas superiores a 1.500 euros anuales, excluidas las exentas.
-// SIN HIJOS 15.456 €
-// 16.481 €
-//17.634 €
